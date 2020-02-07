@@ -1,0 +1,26 @@
+.availability{
+	font-weight: bold;
+	font-size:13px;
+	font-family: Arial, Helvetica, san-serif;
+	color:#666;
+	padding:0px 0px 0px 10px;
+	margin-left:10px;
+	display: block;
+	height:22px;
+	float:left;
+}
+.availability span{
+	padding:2px 20px 3px 10px;
+	margin: 0px 0px 0px 10px;
+	display:block;
+	float:right;
+	white-space: nowrap;
+}
+.unavailableValue{
+	background: #edabab url(../img/lights.png) no-repeat 4px 0;
+	border: solid 1px #BC0000;
+}
+.availableValue{
+	background: #d3edab url(../img/lights.png) no-repeat 4px -44px;
+	border: solid 1px #73bc00;
+}

@@ -1,0 +1,198 @@
+body {
+    font-family: Arial;
+    padding: 0px;
+    margin: 0px;
+    background-color: #ffffff;
+    font-size: 80%;
+}
+
+input {
+    border-color:gray;
+    border-style: solid;
+    border-width: 1px;
+}
+textarea {
+    border-color:gray;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial;
+}
+option {
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+}
+
+select {
+    border-color:gray;
+    border-style: solid;
+    border-width: 1px;
+}
+
+input[type="checkbox"] {
+    border: none;
+    border-width: 0px;
+}
+
+input[type="radio"] {
+    border: none;
+    border-width:0;
+}
+
+tfoot td {    
+    background-color: #dddede;
+}
+
+thead th {
+    font: bold 11px verdana, arial, helvetica, sans-serif;
+    background: #4F81BD;
+    color: white;
+}
+/**/
+.boton {
+   background: #005199;
+   color: white;
+   font-size: 13px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   cursor: pointer;
+   border: none;
+}
+.boton:hover {
+   background: #1b435e;
+   color: #ccc;
+}
+.boton:active {
+   background: #005199;
+}
+/**/
+.titulo {
+    font: bold 18px verdana, arial, helvetica, sans-serif;
+    background: transparent;
+    padding:6px 4px 8px 0px;
+    color: #00133e;
+    text-transform: uppercase;
+}
+
+.titulo_azul {
+    font: bold 18px verdana, arial, helvetica, sans-serif;
+    background: transparent;
+    padding:6px 4px 8px 0px;
+    color: #283C92;
+    text-transform: uppercase;
+}
+
+.texto {
+    font-size: 11px;
+    font-family: Arial;
+    color: #000000;
+}
+
+.textopequeno {
+    /*font-size: 0.875em;*/
+		font-size: 11px;
+    font-family: Arial;
+    color: #000000;
+}
+
+.ardanuy {
+	font-size: 11px;
+	font-weight: bold;
+	color: #005199;
+	background: #E9E9E9;
+}
+
+.colortexto {
+	font-size: 12px;
+	color: #005199;
+}
+
+
+.subtexto {
+    font-size: 12px;
+    font-family: Arial;
+    color: #000000;
+}
+
+.subtexto_rojo {
+    font-size: 12px;
+    font-family: Arial;
+    color: #cc0000;
+}
+
+.subtexto_blanco {
+    font-size: 12px;
+    font-family: Arial;
+    color: #ffffff;
+}
+
+.subtexto_azul {
+    font-size: 11px;
+    font-family: Arial;
+    color: #006699;
+}
+
+.enlacePasos {
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+		font-family: Arial;
+    font-weight: bold;
+}
+.enlacePasos:hover {
+   color: red;
+	 font-weight: bold;
+}
+
+
+div.container {
+    background-color: #eee;
+    border: 1px solid red;
+    padding: 5px;
+    width: 450px;
+}
+div.container ol li {
+    list-style-type: disc;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+div.container { 
+    display: none
+}
+
+.error{
+    background-color: #BC1010;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-top: 6px;
+    position: absolute;
+		font-size: 11px;
+}
+.error:before{ /* Este es un truco para crear una flechita */
+    content: '';
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #BC1010;
+    border-left: 8px solid transparent;
+    left: -16px;
+    position: absolute;
+    top: 5px;
+		font-size: 11px;
+}
+
+/* colores */
+.rojo{
+	color: red;
+}
+.azultexto{
+	color: #005199;
+}
+
+/* texto */
+.normal{
+	font-size: 12px;
+}
